@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Cinzel } from "next/font/google";
 import "./globals.css";
+import { Header } from "./components/Header/header";
 
-const inter = Inter({ subsets: ["latin"] });
+const cinzel = Cinzel({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Meu Portfólio",
@@ -15,8 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br">
+      <body className={cinzel.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
