@@ -50,7 +50,7 @@ export function Contato() {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:3000/thanks"
+            value="https://meu-portfolio-sepia-one.vercel.app/thanks"
           />
         </form>
       </div>
