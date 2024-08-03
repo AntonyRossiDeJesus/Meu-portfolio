@@ -145,7 +145,7 @@ export function Cards() {
           />
           <Image
             src={Card05}
-            className="absolute -right-2 sm:right-0 bottom-60 sm:bottom-28 lg:bottom-48 xl:-right-10 opacity-0 "
+            className="absolute -right-3 sm:right-0 bottom-60 sm:bottom-28 lg:bottom-48 xl:-right-10 opacity-0 "
             alt="Card 5"
             ref={card05Ref}
           />
