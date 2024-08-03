@@ -1,6 +1,6 @@
 export function Contato() {
   return (
-    <section className="flex py-12 items-center justify-center">
+    <section className="flex py-12 items-center justify-center bg-black">
       <div className="container p-4 max-w-4xl">
         <form
           className="flex flex-col w-full items-center justify-start gap-2 px-6"

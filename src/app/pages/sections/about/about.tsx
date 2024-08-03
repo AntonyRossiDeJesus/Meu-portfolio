@@ -9,7 +9,7 @@ export function About() {
               <img src="" alt="" />
               <h4>Experiencia</h4>
               <p>2+ anos</p>
-              <p>Desenvolvedor Fontend</p>
+              <p>Desenvolvedor Frontend</p>
             </div>
 
             <div className="border p-4 rounded-lg w-[50%]  text-center text-sm md:text-base">

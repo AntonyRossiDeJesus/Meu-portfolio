@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-import avatarHero from "@/assets/IMG-TON-2.webp";
+import { AnimatedBackground } from "@/app/components/AnimatedBackground/animatedBackground";
 import downloadIcon from "@/assets/Download-check.svg";
 import contactIcon from "@/assets/ICONE-MAIL.svg";
-import { AnimatedBackground } from "@/app/components/AnimatedBackground/animatedBackground";
+import avatarHero from "@/assets/IMG-TON-2.webp";
 
 export function Hero() {
   return (
-    <section className="flex justify-center p-4 mt-10 ">
+    <section className="flex justify-center p-4 pt-10 bg-black">
       <div className="container flex flex-col md:flex-row items-center justify-center gap-4 ">
         <div className="relative w-[100%] sm:w-[60%] md:w-[60%] lg:w-[35%] xl:w-[30%] 2xl:w-[25%] h-96">
           <div className="absolute w-[100%]  top-0 right-0">
@@ -26,7 +26,7 @@ export function Hero() {
           <h1 className="text-4xl md:text-5xl xl:text-7xl">
             Antony rossi de jesus
           </h1>
-          <h2 className="text-2xl md:text-4xl">Desenvolvedor web</h2>
+          <h2 className="text-2xl md:text-4xl">Desenvolvedor Front-end</h2>
           <div className="flex items-center justify-center flex-col md:flex-row gap-4">
             <button className="flex w-[100%] items-center justify-center gap-2 border-2 border-solid py-2 px-7 text-xs hover:bg-green-700">
               <Image src={downloadIcon} alt="Download icone" />
