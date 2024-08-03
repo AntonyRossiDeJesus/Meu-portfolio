@@ -33,8 +33,13 @@ export function Hero() {
               <span>DOWNLOAD CV</span>
             </button>
             <button className="flex w-[100%] items-center justify-center gap-2 border-2 border-solid py-2 px-7 text-xs hover:bg-green-700">
-              <Image src={contactIcon} alt="Download icone" />
-              <span>CONTATO</span>
+              <a
+                href="https://api.whatsapp.com/send?phone=5548988046418"
+                className="flex gap-2 items-center"
+              >
+                <Image src={contactIcon} alt="Download icone" />
+                <span>CONTATO</span>
+              </a>
             </button>
           </div>
         </div>

@@ -111,7 +111,7 @@ export function Cards() {
           ref={mockupRef}
         />
         <h2
-          className="text-center text-4xl md:text-5xl lg:text-7xl font-semibold text-black mb-56 opacity-0"
+          className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl/normal font-semibold text-black mb-56 opacity-0"
           ref={titleRef}
         >
           Seu

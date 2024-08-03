@@ -20,10 +20,16 @@ export function About() {
             </div>
           </div>
           <p className="max-w-[100%] md:max-w-[70%]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-            commodi, doloribus corrupti dolorum tenetur nam ad ducimus at iure
-            sapiente saepe alias beatae aspernatur nihil delectus optio quae
-            iste blanditiis.
+            Com mais de 2 anos de experiência no desenvolvimento web, aplicando
+            as melhores práticas, tendências e soluções mais eficazes para
+            atender às suas necessidades, já trabalhei em uma ampla variedade de
+            projetos, desde sites corporativos, gerenciamento de cursos até
+            lojas online, criando soluções personalizadas que se adaptam às
+            especificidades do seu negócio, com agilidade e eficácia, garantindo
+            que seu projeto seja concluído dentro do cronograma estabelecido,
+            além de criar seu site oferecemos suporte contínuo para resolver
+            problemas, fazer atualizações e garantir que sua presença online
+            esteja sempre funcionando perfeitamente.
           </p>
           <hr className=" bg-black border-2 border-solid" />
           <h2 className="text-center text-4xl">Tecnologias</h2>
@@ -50,18 +56,20 @@ export function About() {
           </div>
 
           <div className="w-full flex flex-wrap md:flex-nowrap text-center gap-2 md:gap-4 text-sm md:text-base">
+            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">SCSS</div>
+            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">UI</div>
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
-              JavaScript
+              Tailwind CSS
             </div>
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
-              Typescript
+              Figma
             </div>
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
-              React
+              Photoshop
             </div>
-            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">Next</div>
-            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">Git</div>
-            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">HTML</div>
+            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
+              Illustration
+            </div>
           </div>
         </div>
       </div>

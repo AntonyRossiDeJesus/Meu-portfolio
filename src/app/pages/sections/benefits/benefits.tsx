@@ -62,14 +62,14 @@ export function Benefits() {
     <section className="relative w-full flex justify-center bg-black bg-hero h-section-benefits border-t border-t-green-border pt-16 overflow-hidden bg-no-repeat bg-top">
       <GridContainer className="flex flex-col items-center">
         <div
-          className="w-full max-w-text-benefits text-center opacity-0"
+          className="w-full max-w-text-benefits text-center opacity-0 mt-8"
           ref={textHeroRef}
         >
           <h3 className="text-xl font-medium text-green-actived mb-4">
             Em todos os dispositivos
           </h3>
-          <h1 className="text-white text-7xl/normal font-semibold mb-2">
-            Design responsivo
+          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl/normal font-semibold mb-2">
+            Design <span className="text-green-500">responsivo</span>
           </h1>
 
           <div className="flex items-center justify-center gap-10">
