@@ -121,7 +121,7 @@ export function Cards() {
         <div className="relative  2xl:max-w-area-cards xl:w-[1200px] lg:w-[1000px] md:w-[760px] sm:w-[500px] w-[320px] mx-auto h-area-cards">
           <Image
             src={Card01}
-            className="absolute -top-20 sm:top-8 md:-top-24 left-24 sm:left-44 md:left-12 opacity-0 "
+            className="absolute -top-20 sm:top-8 md:-top-24 left-2 sm:left-44 md:left-12 opacity-0 "
             alt="Card 1"
             ref={card01Ref}
           />
@@ -145,13 +145,13 @@ export function Cards() {
           />
           <Image
             src={Card05}
-            className="absolute -right-3 sm:right-0 bottom-60 sm:bottom-28 lg:bottom-48 xl:-right-10 opacity-0"
+            className="absolute -right-0 sm:right-0 bottom-60 sm:bottom-28 lg:bottom-48 xl:-right-10 opacity-0 "
             alt="Card 5"
             ref={card05Ref}
           />
           <Image
             src={Card06}
-            className="absolute -bottom-10 sm:bottom-0 md:-bottom-14 lg:-bottom-2 xl:bottom-0 right-32 sm:right-80 md:right-96 lg:right-[130px] opacity-0 "
+            className="absolute -bottom-10 sm:bottom-0 md:-bottom-14 lg:-bottom-2 xl:bottom-0 right-32 sm:right-80 md:right-96 lg:right-[130px] opacity-0"
             alt="Card 6"
             ref={card06Ref}
           />
