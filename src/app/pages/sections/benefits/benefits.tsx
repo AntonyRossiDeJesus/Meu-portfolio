@@ -79,9 +79,7 @@ export function Benefits() {
                 className="flex items-center gap-2"
               >
                 <Image src={IconFile} alt="icone de file" />
-                <span className="text-white font-medium">
-                  Assinar lista de espera
-                </span>
+                <span className="text-white font-medium">quero meu site</span>
               </a>
             </button>
           </div>

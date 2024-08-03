@@ -19,7 +19,7 @@ export function About() {
               <p>Análise de dados</p>
             </div>
           </div>
-          <p className="max-w-[100%] md:max-w-[70%]">
+          <p className="max-w-[100%] md:max-w-[70%] text-center">
             Com mais de 2 anos de experiência no desenvolvimento web, aplicando
             as melhores práticas, tendências e soluções mais eficazes para
             atender às suas necessidades, já trabalhei em uma ampla variedade de
@@ -58,7 +58,7 @@ export function About() {
           <div className="w-full flex flex-wrap md:flex-nowrap text-center gap-2 md:gap-4 text-sm md:text-base">
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">SCSS</div>
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">UI</div>
-            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
+            <div className="w-[30%] md:w-[16%] py-2 px-1 border rounded-lg">
               Tailwind CSS
             </div>
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
