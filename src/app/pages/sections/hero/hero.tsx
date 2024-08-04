@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import { AnimatedBackground } from "@/app/components/AnimatedBackground/animatedBackground";
 import { FlipWordsDemo } from "@/app/components/AnimatedFlip/animatedFlip";
 import { VortexDemo } from "@/app/components/vortex/vortex";
 import downloadIcon from "@/assets/Download-check.svg";
@@ -12,9 +11,9 @@ export function Hero() {
     <section className="flex relative justify-center bg-[#020617] z-20">
       <div className="container z-50 pt-10 flex flex-col md:flex-row items-center justify-center gap-4 ">
         <div className="relative w-[100%] sm:w-[60%] md:w-[60%] lg:w-[35%] xl:w-[30%] 2xl:w-[25%] h-96">
-          <div className="absolute w-[100%]  top-0 right-0">
+          {/* <div className="absolute w-[100%]  top-0 right-0">
             <AnimatedBackground />
-          </div>
+          </div> */}
 
           <div className="absolute w-[100%] md:w-[90%] z-10 ">
             <Image

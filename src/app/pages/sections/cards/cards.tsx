@@ -10,7 +10,6 @@ import Card05 from "@/assets/image-05.png";
 import Card06 from "@/assets/image-06.png";
 import Mockup from "@/assets/mockup-main.png";
 
-import { GlobeDemo } from "@/app/components/globe/globe";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
@@ -157,10 +156,6 @@ export function Cards() {
             ref={card06Ref}
           />
         </div>
-      </div>
-
-      <div className="w-full right-0">
-        <GlobeDemo />
       </div>
     </section>
   );
