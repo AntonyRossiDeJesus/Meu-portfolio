@@ -7,12 +7,12 @@ export const Header = () => {
         <div className="container max-w-7xl">
           <nav className="flex justify-between md:justify-start gap-6">
             <Link href={"/"}> {" Início "} </Link>
-            <Link href={"#about"}> {" Sobre "} </Link>
+            <Link href={"/"}> {" Sobre "} </Link>
             <Link href={"https://api.whatsapp.com/send?phone=5548988046418"}>
               {" "}
               {" Contato "}{" "}
             </Link>
-            <Link href={"#projects"}> {" Projetos "} </Link>
+            <Link href={"/projects"}> {" Projetos "} </Link>
           </nav>
         </div>
       </div>

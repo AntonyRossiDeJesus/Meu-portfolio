@@ -24,7 +24,7 @@ export function Hero() {
           </div>
         </div>
         <div className="flex justify-center flex-col gap-4 w-full sm:w-[50%]">
-          <h1 className="text-[27px] md:text-[1.775rem] xl:text-7xl text-center">
+          <h1 className="text-[27px] md:text-[1.775rem] lg:text-6xl text-center">
             Antony rossi de jesus
           </h1>
           <FlipWordsDemo />
