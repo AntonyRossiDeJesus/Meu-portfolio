@@ -8,7 +8,7 @@ import avatarHero from "@/assets/IMG-TON-2.webp";
 
 export function Hero() {
   return (
-    <section className="flex justify-center p-4 pt-10 bg-black">
+    <section className="flex justify-center p-4 pt-10 bg-[#020617] z-20">
       <div className="container flex flex-col md:flex-row items-center justify-center gap-4 ">
         <div className="relative w-[100%] sm:w-[60%] md:w-[60%] lg:w-[35%] xl:w-[30%] 2xl:w-[25%] h-96">
           <div className="absolute w-[100%]  top-0 right-0">

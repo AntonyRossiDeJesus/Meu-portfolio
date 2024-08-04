@@ -1,4 +1,3 @@
-import { plugin } from "postcss";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,6 +10,13 @@ const config: Config = {
     extend: {
       backgroundImage: {
         projeto01: "url('/assets/project01.webp')",
+        "custom-gradient-sobre-mim":
+          "linear-gradient(to bottom, #17C6E2, #020617)",
+      },
+
+      colors: {
+        "custom-color-sobre-mim":
+          "linear-gradient(to bottom, #17C6E2, #020617)",
       },
     },
 
@@ -27,18 +33,6 @@ const config: Config = {
 
       "2xl": "1536px",
     },
-
-    // maxWidth: {
-    //   // grid: "77.5rem",
-    //   // "text-benefits": "66rem",
-    //   // "area-icons": "54.6rem",
-    //   // "area-mockups": "59.8rem",
-    //   // "area-cards": "82.5rem",
-    // },
-    // height: {
-
-    //   "area-cards": "35.1rem",
-    // },
   },
 
   plugins: [
