@@ -85,7 +85,7 @@ export function Benefits() {
           </div>
         </div>
 
-        <div className="relative max-w-area-icons mt-4 h-28">
+        <div className="relative w-[320px] md:w-[500px] lg:w-[840px] mt-4 h-28 overflow-hidden">
           <Image
             src={IconHand}
             alt="Icone palmas"

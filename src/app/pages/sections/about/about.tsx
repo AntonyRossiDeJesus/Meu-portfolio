@@ -67,7 +67,7 @@ export function About() {
             <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
               Photoshop
             </div>
-            <div className="w-[30%] md:w-[16%] p-2 border rounded-lg">
+            <div className="w-[30%] md:w-[16%] py-2 px-[2px] md:px-2 border rounded-lg">
               Illustration
             </div>
           </div>
