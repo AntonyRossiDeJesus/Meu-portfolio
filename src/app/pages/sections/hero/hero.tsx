@@ -2,14 +2,15 @@ import Image from "next/image";
 
 import { AnimatedBackground } from "@/app/components/AnimatedBackground/animatedBackground";
 import { FlipWordsDemo } from "@/app/components/AnimatedFlip/animatedFlip";
+import { VortexDemo } from "@/app/components/vortex/vortex";
 import downloadIcon from "@/assets/Download-check.svg";
 import contactIcon from "@/assets/ICONE-MAIL.svg";
 import avatarHero from "@/assets/IMG-TON-2.webp";
 
 export function Hero() {
   return (
-    <section className="flex justify-center p-4 pt-10 bg-[#020617] z-20">
-      <div className="container flex flex-col md:flex-row items-center justify-center gap-4 ">
+    <section className="flex relative justify-center bg-[#020617] z-20">
+      <div className="container z-50 pt-10 flex flex-col md:flex-row items-center justify-center gap-4 ">
         <div className="relative w-[100%] sm:w-[60%] md:w-[60%] lg:w-[35%] xl:w-[30%] 2xl:w-[25%] h-96">
           <div className="absolute w-[100%]  top-0 right-0">
             <AnimatedBackground />
@@ -47,6 +48,10 @@ export function Hero() {
             </button>
           </div>
         </div>
+      </div>
+
+      <div className="absolute w-full">
+        <VortexDemo />
       </div>
     </section>
   );

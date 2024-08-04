@@ -10,6 +10,7 @@ import Card05 from "@/assets/image-05.png";
 import Card06 from "@/assets/image-06.png";
 import Mockup from "@/assets/mockup-main.png";
 
+import { GlobeDemo } from "@/app/components/globe/globe";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
@@ -100,10 +101,10 @@ export function Cards() {
   }, []);
   return (
     <section
-      className="w-full pb-20 flex  justify-center items-center"
+      className="relative w-full min-auto h-[75rem] pb-20 flex justify-center items-center"
       ref={sectionRef}
     >
-      <div className="container">
+      <div className="container z-50 absolute">
         <Image
           src={Mockup}
           alt="Mockup main"
@@ -118,7 +119,7 @@ export function Cards() {
           <span className="text-green-500"> negócio </span>
           em todo o mundo
         </h2>
-        <div className="relative  2xl:max-w-area-cards xl:w-[1200px] lg:w-[1000px] md:w-[760px] sm:w-[500px] w-[320px] mx-auto h-area-cards">
+        <div className="relative 2xl:max-w-area-cards xl:w-[1200px] lg:w-[1000px] md:w-[760px] sm:w-[500px] w-[320px] mx-auto h-area-cards">
           <Image
             src={Card01}
             className="absolute -top-20 sm:top-8 md:-top-24 left-2 sm:left-44 md:left-12 opacity-0 "
@@ -127,7 +128,7 @@ export function Cards() {
           />
           <Image
             src={Card02}
-            className="absolute -left-24 sm:left-0 bottom-40 sm:bottom-32 opacity-0 "
+            className="absolute -left-24 sm:left-0 bottom-40 sm:bottom-32 opacity-0 z-50 sm:z-0"
             alt="Card 2"
             ref={card02Ref}
           />
@@ -156,6 +157,10 @@ export function Cards() {
             ref={card06Ref}
           />
         </div>
+      </div>
+
+      <div className="w-full right-0">
+        <GlobeDemo />
       </div>
     </section>
   );
