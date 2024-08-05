@@ -1,7 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // images: {
+  //   domains: ["maxdesigns.com.br"],
+  // },
   images: {
-    domains: ["maxdesigns.com.br"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "maxdesigns.com.br",
+        port: "",
+        pathname: "/wp-content/uploads/**",
+      },
+    ],
   },
 };
 

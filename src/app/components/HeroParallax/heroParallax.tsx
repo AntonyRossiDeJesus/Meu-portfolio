@@ -10,7 +10,7 @@ export const products = [
     title: "Oculos Muvi",
     link: "https://oculosmuvi.com.br/",
     thumbnail:
-      "https://maxdesigns.com.br/wp-content/uploads/2024/04/oculos-muvi-capa-webp80.webp",
+      "https://maxdesigns.com.br/wp-content/uploads/2024/04/instatel-net-webp.webp",
   },
   {
     title: "Residencial Dorvalino Gonzaga",
@@ -35,13 +35,14 @@ export const products = [
     title: "Instasany",
     link: "https://instasany-mu.vercel.app/",
     thumbnail:
-      "https://maxdesigns.com.br/wp-content/uploads/2024/06/bg-instasany-nvv.webp",
+      "https://maxdesigns.com.br/wp-content/uploads/2023/11/IMAGEM-PROJETO08-SESSAO-PROJETOS-WEBP.webp",
   },
+
   {
     title: "Instatel.net",
     link: "https://instatel.net.br/",
     thumbnail:
-      "https://maxdesigns.com.br/wp-content/uploads/2024/04/instatel-net-webp.webp",
+      "https://maxdesigns.com.br/wp-content/uploads/2024/04/oculos-muvi-capa-webp80.webp",
   },
 
   {
@@ -85,7 +86,7 @@ export const products = [
     title: "Bitcion",
     link: "https://maxdesigns.com.br/projetos/",
     thumbnail:
-      "https://maxdesigns.com.br/wp-content/uploads/2023/11/IMAGEM-PROJETO08-SESSAO-PROJETOS-WEBP.webp",
+      "https://maxdesigns.com.br/wp-content/uploads/2024/06/bg-instasany-nvv.webp",
   },
   {
     title: "Nutri Suplementos",

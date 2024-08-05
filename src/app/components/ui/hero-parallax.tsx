@@ -59,7 +59,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -120,8 +120,7 @@ export const Header = () => {
 
       <p className="max-w-2xl font-bold text-xl md:text-xl mt-8 text-gray-700 ">
         Construo belos sites com as mais recentes tecnologias e estruturas. Sou
-        o desenvolvedor e designer apaixonado que ama construir páginas
-        incríveis.
+        o desenvolvedor e designer apaixonado em construir páginas incríveis.
       </p>
     </div>
   );
@@ -157,7 +156,7 @@ export const ProductCard = ({
           src={product.thumbnail}
           height="600"
           width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
+          className="object-auto object-center absolute h-full w-full inset-0"
           alt={product.title}
         />
       </Link>
