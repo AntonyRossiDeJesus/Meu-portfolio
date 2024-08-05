@@ -1,8 +1,10 @@
 import { LampDemo } from "@/app/components/Lamp/lamp";
+import Skeleton from "@mui/material/Skeleton";
+import Stack from "@mui/material/Stack";
 
 export function About() {
   return (
-    <section className="flex flex-col items-center justify-center w-full bg-[#020617] h-auto pb-10 pt-20 sm:pt-0 text-white z-10">
+    <section className="flex flex-col items-center justify-center w-full bg-[#020617] h-auto pb-10 pt-20 sm:pt-0 text-white z-10 overflow-hidden">
       <LampDemo />
       <div className="container -mt-72 z-50">
         <div className="flex items-center justify-center flex-col w-full gap-4">

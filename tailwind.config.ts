@@ -12,6 +12,8 @@ const config: Config = {
         projeto01: "url('/assets/project01.webp')",
         "custom-gradient-sobre-mim":
           "linear-gradient(to bottom, #17C6E2, #020617)",
+        "custom-gradient-hero-rodape":
+          "linear-gradient(to bottom, #000, #020617)",
       },
 
       colors: {

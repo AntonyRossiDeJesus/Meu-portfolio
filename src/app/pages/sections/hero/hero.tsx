@@ -4,31 +4,17 @@ import { FlipWordsDemo } from "@/app/components/AnimatedFlip/animatedFlip";
 import { VortexDemo } from "@/app/components/vortex/vortex";
 import downloadIcon from "@/assets/Download-check.svg";
 import contactIcon from "@/assets/ICONE-MAIL.svg";
-import avatarHero from "@/assets/IMG-TON-2.webp";
 
 export function Hero() {
   return (
-    <section className="flex relative justify-center bg-[#020617] z-20">
-      <div className="container z-50 pt-10 flex flex-col md:flex-row items-center justify-center gap-4 ">
-        <div className="relative w-[100%] sm:w-[60%] md:w-[60%] lg:w-[35%] xl:w-[30%] 2xl:w-[25%] h-96">
-          {/* <div className="absolute w-[100%]  top-0 right-0">
-            <AnimatedBackground />
-          </div> */}
-
-          <div className="absolute w-[100%] md:w-[90%] z-10 ">
-            <Image
-              className="rounded-full max-h-1/2"
-              src={avatarHero}
-              alt="Avatar hero"
-            />
-          </div>
-        </div>
+    <section className="flex relative justify-center bg-black z-20 h-[40rem]">
+      <div className="container z-40 pt-5 flex flex-col md:flex-row items-center justify-center gap-4 ">
         <div className="flex justify-center flex-col gap-4 w-full sm:w-[50%]">
-          <h1 className="text-[27px] md:text-[1.775rem] lg:text-6xl text-center">
+          <h1 className="text-5xl md:text-[1.775rem] lg:text-6xl text-center">
             Antony rossi de jesus
           </h1>
           <FlipWordsDemo />
-          <h2 className="text-base text-center md:text-[20px]">
+          <h2 className="text-2xl text-center md:text-[20px]">
             Desenvolvedor Front-end
           </h2>
           <div className="flex items-center justify-center flex-col md:flex-row gap-4">
