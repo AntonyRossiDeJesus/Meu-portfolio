@@ -108,13 +108,9 @@ export const Header = () => {
 
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-5xl md:text-7xl font-bold text-black">
-        O MAIS MOTIVADO
-      </h1>
+      <h1 className="text-5xl md:text-7xl font-bold text-black">VENDA MAIS</h1>
       <div className="text-4xl md:text-7xl font-bold text-black">
-        <span className="text-[20px] md:text-2xl lg:text-4xl">
-          desenvolvedor
-        </span>
+        <span className="text-[20px] md:text-2xl lg:text-4xl">ATRÁVES DE</span>
         <FlipWords words={words} className="text-green-600" />
       </div>
 
