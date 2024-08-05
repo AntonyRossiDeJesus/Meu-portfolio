@@ -11,11 +11,11 @@ export function HeroScrollDemo() {
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
               landing page
-              <br />
-              <span className="text-5xl md:text-[6rem] font-bold mt-1 leading-none">
-                SEU PRODUTO <span className="text-green-500">VENDE MAIS</span>
-              </span>
             </h1>
+            <br />
+            <span className="text-5xl text-gray-600 md:text-[6rem] font-bold mt-1 leading-none">
+              SEU PRODUTO <span className="text-green-500">VENDE MAIS</span>
+            </span>
           </>
         }
       >
