@@ -1,16 +1,13 @@
 import Image from "next/image";
 
 import avatarHero from "@/assets/IMG-TON-2.webp";
-import { AnimatedBackground } from "@/app/components/AnimatedBackground/animatedBackground";
 
 export default function Thanks() {
   return (
     <section className="flex justify-center p-4 mt-10 ">
       <div className="container flex flex-col md:flex-row items-center justify-center gap-4 ">
         <div className="relative w-[80%] md:w-[75%] lg:w-[60%] xl:w-[30%] h-96">
-          <div className="absolute w-[100%]  top-0 right-0">
-            <AnimatedBackground />
-          </div>
+          <div className="absolute w-[100%]  top-0 right-0"></div>
 
           <div className="absolute w-[80%] z-10 right-12">
             <Image
